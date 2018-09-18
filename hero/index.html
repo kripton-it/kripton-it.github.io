@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Тестовое задание для "Сайт консалтинг"</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <h1 class="visually-hidden">Название сайта</h1>
+    <section class="my-team slider container">
+      <h2>Моя <span class="my-super-team">супер команда</span></h2>
+      <ul class="my-team__list slider__list">
+        <li class="my-team__item slider__item hero">
+          <img class="hero__image" src="img/slide-1.jpg" alt="Имя персонажа" width="128" height="128">
+          <h3 class="hero__name">Джейсон Стейтем <span class="hero__title">Мастер ножей</span></h3>
+          <p class="hero__date">
+            Дата вступления в команду:
+            <time datetime="1967-08-26">26.08.1967</time>
+          </p>
+        </li>
+        <li class="my-team__item slider__item hero">
+          <img class="hero__image" src="img/slide-2.jpg" alt="Имя персонажа" width="128" height="128">
+          <h3 class="hero__name">Ван Дамм <span class="hero__title">Танцор</span></h3>
+          <p class="hero__date">
+            Дата вступления в команду:
+            <time datetime="1960-10-18">18.10.1960</time>
+          </p>
+        </li>
+        <li class="my-team__item slider__item hero">
+          <img class="hero__image" src="img/slide-3.jpg" alt="Имя персонажа" width="128" height="128">
+          <h3 class="hero__name">Сильвестр Сталлоне <span class="hero__title">Полуликий</span></h3>
+          <p class="hero__date">
+            Дата вступления в команду:
+            <time datetime="1946-08-06">06.08.1946</time>
+          </p>
+        </li>
+        <li class="my-team__item slider__item hero">
+          <img class="hero__image" src="img/slide-4.jpg" alt="Имя персонажа" width="128" height="128">
+          <h3 class="hero__name">Джет Ли <span class="hero__title">Фанат Брюса</span></h3>
+          <p class="hero__date">
+            Дата вступления в команду:
+            <time datetime="1973-02-27">27.02.1973</time>
+          </p>
+        </li>
+      </ul>
+      <ul class="slider__controls">
+        <li class="slider__controls-item slider__controls-item--active">
+          <button class="slider__button" type="button"><span class="visually-hidden">Первый слайд</span></button>
+        </li>
+        <li class="slider__controls-item">
+          <button class="slider__button" type="button"><span class="visually-hidden">Второй слайд</span></button>
+        </li>
+        <li class="slider__controls-item">
+          <button class="slider__button" type="button"><span class="visually-hidden">Третий слайд</span></button>
+        </li>
+      </ul>
+    </section>
+    <section class="add">
+      <div class="container">
+        <h2>Добавь своего <span class="add__hero">героя</span></h2>
+        <form class="add__form form" action="#" method="post">
+          <p class="form__name">
+            <label class="required-label" for="name">Имя</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p class="form__title">
+            <label class="required-label" for="title">Титул</label>
+            <input type="text" name="title" id="title" required>
+          </p>
+          <p class="form__photo drag-and-drop">
+            <label class="required-label" for="photo">Фото</label>
+            <input type="file" name="photo" id="photo" required>
+            <span class="form__photo-draganddrop">
+              Чтобы добавить фото героя перетащите изображение в это поле или просто кликните сюда
+            </span>
+          </p>
+          <button class="form__button" type="submit">Принять</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <p class="footer__copyright">
+      All rights reserved. Copyright &copy; <span>CKDigital</span>
+    </p>
+    <section class="footer__social social">
+      <h2 class="visually-hidden">Мы в социальных сетях:</h2>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#">
+            <span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--tw" href="#">
+            <span class="visually-hidden">Twitter</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--g" href="#">
+            <span class="visually-hidden">Google+</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--lin" href="#">
+            <span class="visually-hidden">LinkedIN</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+
+</body>
+
+</html>
